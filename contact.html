@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Triwsys (Pvt) Ltd</title>
+    <meta name="description" content="Get in touch with Triwsys for intelligent IT solutions.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-header { background-color: var(--clr-dark); color: var(--clr-light); padding: 120px 0 60px; text-align: center; }
+        
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+        @media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; } }
+        
+        .contact-info-wrap p { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 2rem; font-size: 1.1rem; }
+        .contact-info-wrap i { font-size: 1.5rem; color: var(--clr-primary); margin-top: 5px; width: 30px; text-align: center; }
+        
+        /* Timeline style for Protocol */
+        .journey-step { display: flex; align-items: flex-start; margin-bottom: 2.5rem; position: relative; }
+        .journey-icon { background: var(--clr-primary); color: var(--clr-light); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; margin-right: 1.5rem; z-index: 2; font-family: var(--font-heading); box-shadow: 0 0 0 4px var(--clr-dark); }
+        .journey-content h4 { color: var(--clr-primary); margin-bottom: 0.3rem; }
+        .journey-content p { color: var(--clr-gray-300); font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Triwsys Logo">
+            </a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="projects.html">Markets</a>
+                <a href="contact.html" class="active">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container reveal">
+            <h1>Contact Us</h1>
+            <p style="max-width: 800px; margin:0 auto; color: var(--clr-gray-300); font-size: 1.2rem;">Get in touch with Triwsys for intelligent, secure, and scalable IT solutions.</p>
+        </div>
+    </div>
+
+    <!-- Contact Info & Map Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-details reveal text-center" style="max-width: 1000px; margin: 0 auto;">
+                <h2 class="section-title mb-4" style="display: inline-block;">Let's Talk</h2>
+                <p class="mb-4 text-gray" style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 3rem;">Feel free to reach out to us during business hours for immediate assistance, consultations, or direct inquiries.</p>
+                
+                <div class="grid-3 mt-4 text-center">
+                    <div class="icon-box" style="border: 1px solid var(--clr-gray-300);">
+                        <div class="icon-wrapper" style="margin: 0 auto 1.5rem;"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>Our Location</h4>
+                        <p>160C, Weera Mawatha, <br>Depanama, Pannipitiya</p>
+                    </div>
+                    <div class="icon-box" style="border: 1px solid var(--clr-gray-300);">
+                        <div class="icon-wrapper" style="margin: 0 auto 1.5rem;"><i class="fas fa-phone-alt"></i></div>
+                        <h4>Call Us</h4>
+                        <p><a href="tel:+94114775656" style="color: var(--clr-dark); font-size: 1.1rem; font-weight: 600;">+94 11 477 5656</a></p>
+                    </div>
+                    <div class="icon-box" style="border: 1px solid var(--clr-gray-300);">
+                        <div class="icon-wrapper" style="margin: 0 auto 1.5rem;"><i class="fas fa-envelope"></i></div>
+                        <h4>Email & Web</h4>
+                        <p>
+                            <a href="mailto:info@triwsys.com" style="color: var(--clr-dark);">info@triwsys.com</a><br>
+                            <a href="http://www.triwsys.com" target="_blank" style="color: var(--clr-dark);">www.triwsys.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Escalation Protocol Section -->
+    <section class="section section-dark">
+        <div class="container reveal">
+            <div class="text-center mb-4">
+                <h2 class="section-title">Streamlined Escalation Protocol</h2>
+                <p style="max-width: 600px; margin: 0 auto;">Our formal structured process ensures every ticket is effectively evaluated, assigned, and rapidly resolved for maximum system uptime.</p>
+            </div>
+
+            <div style="max-width: 700px; margin: 4rem auto 0; padding-left: 20px; border-left: 2px dashed rgba(255,255,255,0.15);">
+                
+                <div class="journey-step reveal">
+                    <div class="journey-icon" style="margin-left: -42px;">1</div>
+                    <div class="journey-content">
+                        <h4>Ticket Creation</h4>
+                        <p>Open a detailed ticket with a clear summary and allocate a skilled engineer.</p>
+                    </div>
+                </div>
+
+                <div class="journey-step reveal">
+                    <div class="journey-icon" style="margin-left: -42px;">2</div>
+                    <div class="journey-content">
+                        <h4>Ticket Classification & Assignment</h4>
+                        <p>Categorize the ticket based on priority and issue type to the appropriate engineer.</p>
+                    </div>
+                </div>
+
+                <div class="journey-step reveal">
+                    <div class="journey-icon" style="margin-left: -42px;">3</div>
+                    <div class="journey-content">
+                        <h4>Issue Diagnosis</h4>
+                        <p>Analyze the reported issue thoroughly, identify the root cause, and document findings.</p>
+                    </div>
+                </div>
+
+                <div class="journey-step reveal">
+                    <div class="journey-icon" style="margin-left: -42px;">4</div>
+                    <div class="journey-content">
+                        <h4>Action Plan & Resolution</h4>
+                        <p>Develop a structured approach to resolve the issue and implement necessary fixes.</p>
+                    </div>
+                </div>
+
+                <div class="journey-step reveal">
+                    <div class="journey-icon" style="margin-left: -42px;">5</div>
+                    <div class="journey-content">
+                        <h4>Testing & Validation</h4>
+                        <p>Conduct thorough testing to confirm the issue is resolved and validate system functionality.</p>
+                    </div>
+                </div>
+
+                <div class="journey-step reveal">
+                    <div class="journey-icon" style="margin-left: -42px;">6</div>
+                    <div class="journey-content">
+                        <h4>User Confirmation & Closure</h4>
+                        <p>Obtain user confirmation on issue resolution, document final details, and formally close.</p>
+                    </div>
+                </div>
+
+                <div class="journey-step reveal" style="margin-bottom: 0;">
+                    <div class="journey-icon" style="margin-left: -42px;">7</div>
+                    <div class="journey-content">
+                        <h4>Feedback & Continuous Improvement</h4>
+                        <p>Gather user feedback on the resolution process and implement enhancements.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/logo.png" alt="Triwsys" style="width: 150px; margin-bottom: 20px; filter: brightness(0) invert(1);">
+                    <p>Driving the future of technology with intelligent, secure, and scalable IT solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Markets We Impact</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+94114775656">+94 11 477 5656</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@triwsys.com">info@triwsys.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> 160C, Weera Mawatha, Depanama, Pannipitiya</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Triwsys (Pvt) Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
